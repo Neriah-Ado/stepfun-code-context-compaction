@@ -1,0 +1,11 @@
+{
+  "name": "compaction-marketplace",
+  "description": "Context compaction plugins for Step Code.",
+  "plugins": [
+    {
+      "name": "context-compaction",
+      "description": "Automatic context compaction for Step Code long sessions: structured snapshot + mechanical transcript compaction, resume in a fresh session.",
+      "source": "./plugins/context-compaction"
+    }
+  ]
+}
