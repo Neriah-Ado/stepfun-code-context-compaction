@@ -23,4 +23,4 @@ Snapshot template covers goals / status / key decisions / files & commands / nex
 
 ## License
 
-MIT — see [CHANGELOG.md](CHANGELOG.md) for versions.
+[AGPL-3.0-only](./LICENSE) — see [CHANGELOG.md](CHANGELOG.md) for versions. Prior MIT text and copyright notice retained in [LICENSE-MIT](./LICENSE-MIT).

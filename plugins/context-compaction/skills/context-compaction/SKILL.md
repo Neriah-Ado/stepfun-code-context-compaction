@@ -2,7 +2,7 @@
 name: context-compaction
 description: "Auto-trigger in Step Code sessions when context usage nears 70% of the current StepFun model window, tool outputs pile up, the user asks to 压缩上下文/压缩会话/保存进度, or a context-limit warning appears. Produces a structured .stepcode/context-snapshot.md plus a mechanically compacted transcript so work continues in a fresh session without losing goals, decisions, or file state. Also available as the /compact command."
 when_to_use: "Step Code 长会话上下文接近当前 StepFun 模型窗口上限、工具输出大量堆积、用户要求压缩上下文/保存进度/交接新会话、出现上下文超限告警，或 /goal、/cron 长任务进入无人值守阶段前需要交接现场时"
-license: MIT
+license: AGPL-3.0-only
 ---
 
 # Step Code 上下文自动压缩（Context Compaction）

@@ -64,4 +64,6 @@ python plugins/context-compaction/skills/context-compaction/scripts/compress_ses
 
 ## License
 
-MIT
+[AGPL-3.0-only](./LICENSE)
+
+历史 MIT 文本与版权声明保留在 [LICENSE-MIT](./LICENSE-MIT)。
