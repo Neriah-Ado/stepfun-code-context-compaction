@@ -1,8 +1,10 @@
 # Changelog
 
+本文件记录 step-code-context-compaction 插件的所有版本变更。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
+
 ## [1.0.0] - 2026-09-27
 
-### Added
+### 新增
 
 - **Step Code 专向适配版**（源自通用版 [context-compaction-skill](https://github.com/Neriah-Ado/context-compaction-skill) v1.0.1，工程结构参照 stepfun-usage-monitor 的 ZCode 插件方案）
 - 插件化布局：`step.plugin.json` 清单（skills/commands 声明，依据 Step Code 插件加载器源码规则）+ `.step-plugin/marketplace.json`（本仓库即市场 `compaction-marketplace`）+ `.claude-plugin/marketplace.json` 双市场兼容
