@@ -4,7 +4,7 @@
 
 ## 简介
 
-为 **Step Code**（阶跃星辰终端 AI Agent）定制的上下文自动压缩插件：长会话按需产出结构化上下文快照 + 机械压缩素材，新会话一句话无损续接。仓库名 `step-code-context-compaction`，插件名 `context-compaction`，插件市场名 `compaction-marketplace`；工程结构参照 [stepfun-usage-monitor](https://github.com/Neriah-Ado/stepfun-usage-monitor)（ZCode 插件）的插件化方案，适配 Step Code 插件机制。
+为 **Step Code**（阶跃星辰终端 AI Agent）定制的上下文自动压缩插件：长会话按需产出结构化上下文快照 + 机械压缩素材，新会话一句话无损续接。仓库名 `stepfun-code-context-compaction`，插件名 `context-compaction`，插件市场名 `compaction-marketplace`；工程结构参照 [stepfun-usage-monitor](https://github.com/Neriah-Ado/stepfun-usage-monitor)（ZCode 插件）的插件化方案，适配 Step Code 插件机制。
 
 - **自动触发** —— 上下文接近当前 StepFun 模型窗口 70%、工具输出堆积、超限告警，或 `/goal`、`/cron` 长任务进入无人值守阶段前；技能元数据每轮注入，由模型自主判断触发。
 - **手动触发** —— `/compact` 斜杠命令，可选参数指定压缩侧重。
@@ -30,7 +30,7 @@
 本仓库同时是 Step Code 插件市场（`compaction-marketplace`）：
 
 ```text
-/plugin marketplace add Neriah-Ado/step-code-context-compaction
+/plugin marketplace add Neriah-Ado/stepfun-code-context-compaction
 /plugin install context-compaction@compaction-marketplace
 ```
 

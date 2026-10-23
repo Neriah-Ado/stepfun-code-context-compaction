@@ -1,6 +1,17 @@
 # Changelog
 
-本文件记录 step-code-context-compaction 插件的所有版本变更。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
+本文件记录 stepfun-code-context-compaction 插件的所有版本变更。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
+
+## [1.1.0] - 2026-10-23
+
+### 新增
+
+- **并入通用版 `context-compaction-skill`** 作为 `skill/` 子目录（subtree merge，保留完整 git 历史），便于在同一仓库内对照 Step Code 专向插件与通用 Agent 技能实现
+- 仓库名统一为 `stepfun-code-context-compaction`，符合 StepFun 项目命名规范
+
+### 变更
+
+- 仓库由 `step-code-context-compaction` 更名为 `stepfun-code-context-compaction`（GitHub 自动重定向旧 URL）
 
 ## [1.0.0] - 2026-09-27
 

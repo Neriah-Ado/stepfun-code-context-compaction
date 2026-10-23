@@ -2,7 +2,7 @@
   "id": "context-compaction",
   "name": "Context Compaction",
   "description": "Automatic context compaction for Step Code long sessions: trigger near 70% of the model window, produce a structured .stepcode/context-snapshot.md and a mechanically compacted transcript, then resume in a fresh session without losing goals, decisions, or file state.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "skills": ["skills"],
   "commands": ["commands"]
 }
